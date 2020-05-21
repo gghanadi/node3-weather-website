@@ -1,4 +1,3 @@
-console.log('Client side javascript its loaded!');
 const formCuaca = document.querySelector('form');
 const search = document.querySelector('input');
 const massageOne = document.querySelector('#msOne');
