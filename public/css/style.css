@@ -1,0 +1,61 @@
+body{
+    
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-konten{
+    flex-grow: 1;
+}
+h1{
+    color:black;
+    font-size: 64px;
+    margin-bottom: 16px;
+    
+}
+.pasfoto{
+    display: block;
+    width: 300px;
+    height: 295px;
+    border-radius: 50%;
+}
+
+.header{
+    letter-spacing: 2px;
+    word-spacing: 5.3px;
+}
+
+footer{
+    background-color: #cccccc;
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+header a{
+    color:  black;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid  #cccccc;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
