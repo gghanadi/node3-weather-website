@@ -15,7 +15,6 @@ formCuaca.addEventListener('submit', (e) =>{
             }else{
                 massageOne.textContent='Longitude nya dari '+ data.forecast.alamat+' '+data.forecast.long;
                 massageTwo.textContent='Latitude nya dari '+ data.forecast.alamat+' '+data.forecast.lati;
-                console.log(data)
             }
         })
     })
