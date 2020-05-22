@@ -13,6 +13,10 @@ const forecast = require('./utils/forecast');
 
 
 const app = express();
+const port = process.env.PORT || 3000
+
+
+
 app.set('view engine','hbs');
 app.set('views', viewPath);
 // fungsi di atas jika view berada di folder templates maka harus di set dulu seperti contoh di atas
@@ -96,6 +100,6 @@ app.get('*', (req, res) => {
 
 
 
-app.listen(3000, () => {
-    console.log('Server Berjalan di port 3000')
+app.listen(port, () => {
+    console.log('Server Berjalan di port ' + port )
 })

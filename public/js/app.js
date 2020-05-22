@@ -8,7 +8,7 @@ formCuaca.addEventListener('submit', (e) =>{
     const location = search.value
     massageOne.textContent = 'Loading...';
     massageTwo.textContent = '';
-        fetch('http://localhost:3000/cuaca?alamat='+ location).then((response) =>{
+        fetch('/cuaca?alamat='+ location).then((response) =>{
         response.json().then((data)=>{
             if(data.error){
                 massageOne.textContent=data.error;
