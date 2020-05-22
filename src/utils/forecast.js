@@ -11,7 +11,8 @@ const forecast = (lati, long, callback) => {
             callback(undefined,{
                 lati: response.body.location.lat,
                 long: response.body.location.lon,
-                alamat: response.body.location.name
+                alamat: response.body.location.name,
+                temperature: response.body.current.temperature
             })
         }
     }) 
